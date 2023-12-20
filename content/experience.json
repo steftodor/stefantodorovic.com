@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Ciena",
+        "position": "Product Verification Engineering Intern",
+        "description": "",
+        "startDate": "Jan 2020",
+        "endDate": "Dec 2020",
+        "logoUrl": "/assets/logos/ciena.svg"
+    },
+    {
+        "id": 2,
+        "title": "Hack the Hill",
+        "position": "Competitions Director",
+        "description": "",
+        "startDate": "Jan 2020",
+        "endDate": "Dec 2020",
+        "logoUrl": "/assets/logos/hackthehill.svg"
+    },
+    {
+        "id": 3,
+        "title": "Hack the Hill",
+        "position": "Infrastructure Director",
+        "description": "",
+        "startDate": "Jan 2020",
+        "endDate": "Dec 2020",
+        "logoUrl": "/assets/logos/hackthehill.svg"
+    },
+    {
+        "id": 4,
+        "title": "IEEE uOttawa",
+        "position": "Webmaster",
+        "description": "",
+        "startDate": "Jan 2020",
+        "endDate": "Dec 2020",
+        "logoUrl": "/assets/logos/ieee.svg"
+    },
+    {
+        "id": 5,
+        "title": "IEEE uOttawa",
+        "position": "VP Academic Affairs",
+        "description": "",
+        "startDate": "Jan 2020",
+        "endDate": "Dec 2020",
+        "logoUrl": "/assets/logos/ieee.svg"
+    },
+    {
+        "id": 6,
+        "title": "Kelpie Robotics",
+        "position": "Chief Technology Officer",
+        "description": "",
+        "startDate": "Jan 2020",
+        "endDate": "Dec 2020",
+        "logoUrl": "/assets/logos/kelpie.svg"
+    },
+    {
+        "id": 7,
+        "title": "SHOEBOX Ltd.",
+        "position": "Quality Assurance Developer",
+        "description": "",
+        "startDate": "Jan 2020",
+        "endDate": "Dec 2020",
+        "logoUrl": "/assets/logos/shoebox.png"
+    }
+]
