@@ -1,4 +1,3 @@
-import Alert from './alert'
 import Meta from './meta'
 
 type Props = {

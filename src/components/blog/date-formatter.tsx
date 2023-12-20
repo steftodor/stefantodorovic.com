@@ -1,12 +1,18 @@
-import { parseISO, format } from 'date-fns'
+import React from 'react';
 
 type Props = {
-  dateString: string
-}
+  dateString: string;
+};
 
-const DateFormatter = ({ dateString }: Props) => {
-  const date = parseISO(dateString)
-  return <time dateTime={dateString}>{format(date, 'LLLL	d, yyyy')}</time>
-}
+const DateFormatter: React.FC<Props> = ({ dateString }) => {
+  const date = new Date(dateString);
+  const formattedDate = date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
 
-export default DateFormatter
+  return <time dateTime={dateString}>{formattedDate}</time>;
+};
+
+export default DateFormatter;
