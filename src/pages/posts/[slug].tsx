@@ -7,11 +7,11 @@ import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
 import type { InferGetStaticPropsType, GetStaticProps } from 'next'
 //** Custom components  **/ 
-import Container from '../../components/blog/container';
-import PostBody from '../../components/blog/post-body'
-import PostHeader from '../../components/blog/post-header'
-import Layout from '../../components/blog/layout'
-import PostTitle from '../../components/blog/post-title'
+import Container from '../../components/posts/container';
+import PostBody from '../../components/posts/post-body'
+import PostHeader from '../../components/posts/post-header'
+import Layout from '../../components/posts/layout'
+import PostTitle from '../../components/posts/post-title'
 
 
 
@@ -26,7 +26,7 @@ type Props = {
 
 export default function Post({ post, morePosts, preview }: Props) {
   const router = useRouter()
-  const title = `${post.title} | Next.js Blog Example with `
+  const title = `${post.title}`
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }

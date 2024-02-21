@@ -1,13 +1,13 @@
 ---
 title: "LC Technology 5V 2 Channel Relay Board - ESPHome"
 excerpt: 'I purchased several of these relay boards from AliExpress due to their low price point and had intended to use them with Home Assistant by either flashing Tasmota or ESPHome.'
-coverImage: '/blog/smarthome-lctech-5v-2ch-relay/image-01.png'
+coverImage: '/posts/smarthome-lctech-5v-2ch-relay/image-01.png'
 date: '2023-12-19T05:35:07.322Z'
 author:
   name: Stefan Todorovic
   picture: '/assets/headshot.jpg'
 ogImage:
-  url: /blog/smarthome-lctech-5v-2ch-relay/image-01.png'
+  url: /posts/smarthome-lctech-5v-2ch-relay/image-01.png'
 
 ---
 
@@ -29,32 +29,32 @@ The following relies on the assumption that you have a configured instance of Ho
 
 1. Launch Home Assistant in Chrome (this is not required but makes it easier to program the ESSP-01)
 2. Open ESPHome in Home Assistant and click New Device
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-01.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-01.png)
 3. Plug your programmer and ESP-01 into your computer.
 
 If you're using a cheap programmer you will need to briefly connect GPIO0 to ground in order to be able to program the board.
 4. Click Connect and select the board from the menu that appears. Will likely appear as 'USB2.0 to Serial' or something similar.
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-02.png)
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-03.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-02.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-03.png)
 
 5. Allow the board to be programmed, once completed you will see a message. If you get the error message I get you can try disconnecting the programmer and connecting it to power again.
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-04.png)
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-05.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-04.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-05.png)
 6. Once the board appears online, click edit and add the highlighted portions of code from [my github configuration](https://github.com/steftodor/esp-home-config/blob/main/LC%20Technology%202%20Channel/config.yaml)
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-06.png)
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-07.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-06.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-07.png)
 
 7. Save and Click Install (I recommend Wirelessly), wait for the install to finish
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-08.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-08.png)
 8. Once the programming is done, remove the ESP-01 from the programmer and place it in the relay board
-![](/blog/smarthome-lctech-5v-2ch-relay/image-01.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/image-01.png)
 9. Power up the relay board
 10. Navigate to Integrations in Home assistant, if the doesn't show up in auto discovery, add it manually with the IP Address
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-09.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-09.png)
 10. Test it out
 
 Verify that the functions work correctly
-![](/blog/smarthome-lctech-5v-2ch-relay/screenshot-10.png)
+![](/posts/smarthome-lctech-5v-2ch-relay/screenshot-10.png)
 
 
 ## Extras: 3D Printed Case

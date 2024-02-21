@@ -7,10 +7,10 @@ const Navbar = () => {
     <div className="nav-container">
       <div className="logo">
         <Link href="/">
-          Stefan Todorovic
+          stfn888
         </Link>
       </div>
-      <Link href="/blog" className="cta-btn">Blog</Link>
+      <Link href="/posts" className="cta-btn">posts</Link>
 
     </div>
   )

@@ -4,25 +4,18 @@ const Footer = () => {
         <hr/>
         <div className="footer-container">
           <p>
-            © {new Date().getFullYear()} Stefan Todorovic
+            © {new Date().getFullYear()} stfn888
           </p>
           <div className="social_icons">
             <a
-              href="https://github.com/steftodor"
-              aria-label="GitHub"
+              href="https://youtube.com/@stfn888"
+              aria-label="Youtube"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-github"></i>
+              <i className="fa-brands fa-youtube"></i>
             </a>
-            <a
-              href="https://www.linkedin.com/in/todorovicstefan/"
-              aria-label="LinkedIn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-linkedin"></i>
-            </a>
+            
           </div>
         </div>
       </>

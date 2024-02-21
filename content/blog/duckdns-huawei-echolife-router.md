@@ -1,13 +1,13 @@
 ---
 title: "How to use DuckDNS on an Huawei EchoLife Router"
 excerpt: 'DuckDNS is a service that allows users to turn their dynamic IP address into a subdomain which they can use to access services on open ports.'
-coverImage: '/blog/duckdns-huawei-echolife-router/screenshot-01.png'
+coverImage: '/posts/duckdns-huawei-echolife-router/screenshot-01.png'
 date: '2022-09-22T05:35:07.322Z'
 author:
   name: Stefan Todorovic
   picture: '/assets/headshot.jpg'
 ogImage:
-  url: /blog/duckdns-huawei-echolife-router/screenshot-01.png'
+  url: /posts/duckdns-huawei-echolife-router/screenshot-01.png'
 
 ---
 
@@ -18,18 +18,18 @@ More information about DuckDns can be found on their site: [https://www.duckdns.
 
 1.  Go to [https://www.duckdns.org](https://www.duckdns.org) and create an account or sign in.
 2. Create a new subdomain (Enter the subdomain you wish and click 'add domain'
-![](/blog/duckdns-huawei-echolife-router/screenshot-01.png)
+![](/posts/duckdns-huawei-echolife-router/screenshot-01.png)
 
 3. Copy the token
 4. Log into your EchoLife ONT
 5. Navigate to the "Network Application" tab
-![](/blog/duckdns-huawei-echolife-router/screenshot-02.png)
+![](/posts/duckdns-huawei-echolife-router/screenshot-02.png)
 
 6. Select 'DDNS Configuration' on the left side then click 'New'
-![](/blog/duckdns-huawei-echolife-router/screenshot-03.png)
+![](/posts/duckdns-huawei-echolife-router/screenshot-03.png)
 
 7. Input the settings for DuckDNS
-![](/blog/duckdns-huawei-echolife-router/screenshot-04.png)
+![](/posts/duckdns-huawei-echolife-router/screenshot-04.png)
 
      Check the "Enable DDNS" box
       Select the correct "WAN NAME" in this case "2_VOIP_IPTV_INTERNET_R_VID_557"
@@ -41,8 +41,8 @@ More information about DuckDns can be found on their site: [https://www.duckdns.
       "Password" is set to the "token" from duckdns.org
 8. Click Apply
 9. After several moments, you should see the service appear under DDNS Service State as "UP"
-![](/blog/duckdns-huawei-echolife-router/screenshot-05.png)
+![](/posts/duckdns-huawei-echolife-router/screenshot-05.png)
 
 10.  Your IP address should now be visible in the duckdns dashboard.
 
-![](/blog/duckdns-huawei-echolife-router/screenshot-06.png)
+![](/posts/duckdns-huawei-echolife-router/screenshot-06.png)
